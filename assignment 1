@@ -1,0 +1,9 @@
+Yes, there are alternative methods to transpile TypeScript code without running the `tsc` command. Here are a few options:
+
+1. *Using Babel*: Babel is a popular JavaScript compiler that can be used to transpile TypeScript code. You can configure Babel to compile TypeScript code by installing the `@babel/preset-typescript` preset and configuring Babel to use it.
+
+2. *Using Webpack*: Webpack is a powerful module bundler that includes built-in TypeScript support. You can configure Webpack to transpile TypeScript code using loaders like `ts-loader` or `awesome-typescript-loader`.
+
+3. *Using Rollup*: Rollup is another module bundler that supports TypeScript. You can configure Rollup to transpile TypeScript code using plugins like `@rollup/plugin-typescript`.
+
+These tools offer more flexibility and customization options compared to the `tsc` command. However, it's important to note that they may require additional configuration and setup compared to using the `tsc` command directly.
